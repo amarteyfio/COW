@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://k1268f7co6ym"]
+
+[ext_resource type="AudioStream" uid="uid://b4kwtxqfjvnnm" path="res://audio/dramatic-piano-and-strings-177000.mp3" id="1_5o4s7"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_5o4s7")
+autoplay = true

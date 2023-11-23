@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_10"
+type="Resource"
+uid="uid://cm4bedym8pvyu"
+path="res://.godot/imported/clue.dialogue-f60264be28a2be7905c2cb50ca36615f.tres"
+
+[deps]
+
+source_file="res://dialogues/clue.dialogue"
+dest_files=["res://.godot/imported/clue.dialogue-f60264be28a2be7905c2cb50ca36615f.tres"]
+
+[params]
+
+defaults=true

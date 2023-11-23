@@ -1,0 +1,19 @@
+~ start
+Father Adevu: Detective! It's about time.
+Father Adevu: Oh how happy I am to see you. How have things been since we last spoke?
+- Things have been alright. You know not much happens in this town
+	Father Adevu: That's Good.....
+	- Father Adevu, What's all this talk of strange occurences?
+		Father Adevu: Hmmm, yes the rumours are true. You haven’t been around for quite some time, things are changing
+		- I'm sure as a detective I can be of some help
+			Father Adevu: Do you know about the strange noises heard at the apartment block? The residents of floor 12 have complained they hear a woman crying at odd hours, muddy footprints everywhere, and banging on the walls
+			- I would like to take this on as a case
+				Father Adevu:  That is a relief to hear. The strange happenings come from apartment 28. A couple used to live there some years ago. One day, everyone realised they hadn’t seen them for a very long time...
+				do global.queststart()
+				- Alright i'll head there => END
+			- That sounds scary. I'm sure the police would be better => END
+		- Well I should leave then => END
+	- See you then => END
+- Goodbye => END
+Distressed Woman: Please hurry!
+=> END

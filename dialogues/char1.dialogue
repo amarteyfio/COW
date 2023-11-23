@@ -1,0 +1,16 @@
+~ start
+Doorman: Detective!.
+Doorman: I'm assuming you're here about the strange noises.
+- Yep. What can you tell me
+	Doorman: I don't know much but its the Boampong's apartment. It's the one with the BOXES
+	Doorman: They were always strange to me
+	- Strange How?
+		Doorman: I'm not sure but i always felt Mr. Boampong wasn't alright in the head.
+		Doorman: Not the social type, that one.
+		- Was he dangerous?
+			Doorman: Nah. Just weird
+			- Alright i'll head there now => END
+	- Alright i'll head there => END
+- Goodbye => END
+Doorman: Better leave you to it.
+=> END

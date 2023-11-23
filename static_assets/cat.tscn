@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjtpsa0t0iu4f"]
+
+[ext_resource type="Texture2D" uid="uid://bp0rwqpahvrlh" path="res://static_assets/tile006.png" id="1_fros4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t1ohr"]
+size = Vector2(12, 9)
+
+[node name="Cat" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-7.25, -9)
+scale = Vector2(0.453125, 0.375)
+texture = ExtResource("1_fros4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-6, -8.5)
+shape = SubResource("RectangleShape2D_t1ohr")

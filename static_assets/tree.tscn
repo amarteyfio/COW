@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bt5n4w5nale1a"]
+
+[ext_resource type="Texture2D" uid="uid://cda0mm12o3pxo" path="res://static_assets/bigtree (5).png" id="1_51ki6"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gph7p"]
+radius = 8.0
+height = 42.0
+
+[node name="Tree" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("CapsuleShape2D_gph7p")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_51ki6")
